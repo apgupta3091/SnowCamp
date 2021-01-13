@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins&family=Tinos&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Tinos&display=swap');
+
+
+
+
 /* split the screen */
 .split {
     height: 100%;
-    width: 50%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -11,20 +18,80 @@
 
   /* Control the left side */
 .left {
+    width: 55%;
     left: 0;
-    background-color:lightgray;
+    background-color:#EFEFEF;
+    
   }
 
 /* Control the right side */
 .right {
+    width: 45%;
     right: 0;
-    background-color: white;
+    background-color: #01050B;
     
 
   }
 
+
+
 /* snowboard image */
-.snowboard{
+.snowboard {
     width: 100%;
     height: auto;
+    margin-top: -20px;
+}
+
+/* button */
+button {
+  border-radius: 33px;
+  background-color: #C0C2C5;
+  border: none;
+  height: 48px;
+  width: 96px;
+  /* position: relative;
+  left: 265px;
+  bottom: 48px; */
+}
+
+/* button image */
+.button-image {
+  width: 17px;
+  height: 17px;
+}
+
+/* form */
+form {
+  background-color: #dedede;
+  display:flex;
+  width: 302px;
+  height: 48px;
+  border-radius: 33px;
+
+}
+
+/* input */
+input {
+  background-color: #DEDEDE;
+  border-radius: 33px;
+  border: none;
+  height: 48px;
+  width: 302px;
+  margin-left: 30px;
+  padding-right: 40px;
+  /* padding-left: 36px; */
+  font-family: 'Tinos', serif;
+  margin-bottom: 73px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* paragraph */
+.paragraph {
+  /* margin-left: 30px; */
+  margin-right: 21px;
+  font-size: 14px;
+  margin-bottom: 27px;
+  line-height: 1.5;
+  font-family: 'Tinos', serif;
+  font-weight: 300;
 }
