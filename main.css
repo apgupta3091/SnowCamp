@@ -49,15 +49,20 @@ button {
   border: none;
   height: 48px;
   width: 96px;
-  /* position: relative;
-  left: 265px;
-  bottom: 48px; */
 }
 
 /* button image */
 .button-image {
   width: 17px;
   height: 17px;
+}
+
+button:hover {
+  background-color:#afafaf ;
+}
+
+button:focus{
+  outline: none;
 }
 
 /* form */
@@ -67,8 +72,12 @@ form {
   width: 302px;
   height: 48px;
   border-radius: 33px;
+  margin-left: 165px;
+  margin-top: 60px;
 
 }
+
+
 
 /* input */
 input {
@@ -77,21 +86,58 @@ input {
   border: none;
   height: 48px;
   width: 302px;
-  margin-left: 30px;
   padding-right: 40px;
   /* padding-left: 36px; */
   font-family: 'Tinos', serif;
   margin-bottom: 73px;
   font-family: 'Poppins', sans-serif;
+  text-align: left;
 }
+
+input:focus{
+  outline: none;
+}
+
+
+
+
 
 /* paragraph */
 .paragraph {
   /* margin-left: 30px; */
-  margin-right: 21px;
-  font-size: 14px;
+  text-align: center;
+  margin-top: 40px;
+  margin-right: 60px;
+  margin-left: 60px;
+  font-size: 16px;
   margin-bottom: 27px;
   line-height: 1.5;
   font-family: 'Tinos', serif;
   font-weight: 300;
+}
+
+/* hero-h1 */
+.hero-h1 {
+  /* margin-left:30px; */
+  font-size: 55px;
+  font-weight: normal;
+  margin-top: 41px;
+  margin-bottom: 30px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 5px;
+  margin-top: 60px;
+  text-align: center;
+}
+/* span */
+
+span {
+  font-weight: 300px;
+  text-align: center;
+}
+
+.snowCamp {
+  margin-left: 60px;
+  margin-top: 40px;
+  height: auto;
+  width: auto;
 }
